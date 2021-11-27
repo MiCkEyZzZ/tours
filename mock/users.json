@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "6172cadaf9d41ea24aa77e27",
+    "name": "Kate Morison",
+    "email": "kate@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-7.jpg",
+    "password": "$2a$12$M/fAuT/N32P2C2LJ7uRrr.3kKnQc22bfd5wCtJcs9Gp1el1lf4MJq"
+  },
+  {
+    "_id": "6172cb1f7ecad6393517f910",
+    "name": "Elena Stout",
+    "email": "stout@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-6.jpg",
+    "password": "$2a$12$0NWSRIsuwZ13cStGTVCtNO828RGw9QubvOYxHtT7FeOF2BAjD9hh2"
+  },
+  {
+    "_id": "6172cb5612c1b6cdd7e376a4",
+    "name": "Cristian Vega",
+    "email": "vega@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-12.jpg",
+    "password": "$2a$12$xJeMAjadn83iN7cV0MtSg.KP0Nd4xDs7mKtL5spRY7EumgULRAf/."
+  },
+  {
+    "_id": "6172cb8c4b065ee807a419dd",
+    "name": "John Morison",
+    "email": "john@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-13.jpg",
+    "password": "$2a$12$V.Le2DdFTVv9mOh90C4u0.aeq9gZLYok1IwUzO8G87VQC0YEQWM4q"
+  },
+  {
+    "_id": "6172cbc3f57c4ff32b3238c2",
+    "name": "Lourdes Browning",
+    "email": "lourdes@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-4.jpeg",
+    "password": "$2a$12$5Vl0sHx/nRnbUKi5mxFDo.zS3iJbRjEQfu2cjLb0j/Xs6z1EWZlSi"
+  },
+  {
+    "_id": "6172cc05906a44bd7e9c6b82",
+    "name": "Anton Chehovich",
+    "email": "anton@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-10.jpg",
+    "password": "$2a$12$mBt04ccaSQSFCVpzYrkOLOBSKzoqL3GoVKmyaOqIpbpzJ68CLtVQK"
+  },
+  {
+    "_id": "6172cc381ac191744a860d9a",
+    "name": "Donald Trump",
+    "email": "vladimir@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-5.jpeg",
+    "password": "$2a$12$1n/OSLVcJHBTVcSIE4BbAuYzqPYGPtPnRZchJB.ADrffeToal8UCK"
+  },
+  {
+    "_id": "6172cc7e4ab6c33890f12b38",
+    "name": "Mikhail Zhuravlev",
+    "email": "zedmfix@gmail.com",
+    "role": "admin",
+    "active": true,
+    "photo": "user-13.jpg",
+    "password": "$2a$12$AjOJHo2BPijh/QRS5QqLwOFhJWJ/JPZb2WxhE7naOYJmpKjsFq.m."
+  },
+  {
+    "_id": "6172ccbe73399bd2aded1797",
+    "name": "Masha Cooper",
+    "email": "masha@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-12.jpg",
+    "password": "$2a$12$7a6EvdyFeCsF6eyfW3ZvA.LlMfhppCCmdCajCe1qUOZB6.eJa7WDm"
+  },
+  {
+    "_id": "6172cd3ae6594e1b1b401cb6",
+    "name": "Katy Burton",
+    "email": "katy@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-6.jpg",
+    "password": "$2a$12$CDK995eevSCkswAQomrh3OS0eavOig.y0AhJSF54po/W8veAx5Nq."
+  }
+]
