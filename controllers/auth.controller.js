@@ -6,10 +6,11 @@ const AuthService = require('../services/auth.service')
 const AppError = require('../utils/app.errors')
 const sendEmail = require('../utils/email')
 
-const signToken = (id) =>
-    jwt.sign({ id }, process.env.JWT_SECRET, {
+const signToken = id => {
+    return jwt.sign({ id }, process.env.JWT_SECRET, {
         expiresIn: process.env.JWT_EXPIRES_IN,
     })
+}
 
 const createSendToken = async (user, statusCode, res) => {
     const token = signToken(user._id)
@@ -68,13 +69,8 @@ class AuthController {
 
     async protect(req, res, next) {
         try {
-            let token
-
-            if (
-                req.headers.authorization &&
-                req.headers.authorization.startsWith('Bearer')
-            ) {
-                token = req.headers.authorization.split(' ')[1]
+            if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
+                var token = req.headers.authorization.split(' ')[1]
             }
 
             if (!token) {
@@ -86,6 +82,7 @@ class AuthController {
                 )
             }
 
+            // Verification token
             const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET)
 
             const currentUser = await AuthService.getOneUser(decoded.id)
@@ -99,13 +96,14 @@ class AuthController {
                 )
             }
 
-            if (currentUser.changesPasswordAfter(decoded.iat)) {
+            if (currentUser.changedPasswordAfter(decoded.iat)) {
                 return next(
                     new AppError('User recently changed password. Please try again', 401)
                 )
             }
 
             req.user = currentUser
+
             next()
         } catch (err) {
             next(err)

@@ -1,0 +1,96 @@
+.datapicker {
+    margin: 25px 0 0 0;
+    padding: 0;
+}
+
+.react-datepicker-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.react-datepicker__input-container {
+    margin: 0;
+    padding: 0;
+}
+
+.react-datepicker__input-container input {
+    min-width: 242px;
+    height: 51px;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    border: 1px solid var(--color-border-line);
+    border-radius: 8px!important;
+    box-shadow: none;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.react-datepicker__input-container input:focus {
+    border: 1px solid var(--color-active-link-text);
+}
+
+.react-datepicker__input-container input:focus::-webkit-input-placeholder {
+    color: var(--color-primary-text);
+}
+
+.react-datepicker__input-container input:focus::-moz-placeholder {
+    color: var(--color-primary-text);
+}
+
+.react-datepicker__input-container input:focus:-moz-input-placeholder {
+    color: var(--color-primary-text);
+}
+
+.react-datepicker__input-container input:focus::-ms-input-placeholder {
+    color: var(--color-primary-text);
+}
+
+.react-datepicker__input-container input:focus {
+    border: 1px solid var(--color-active-link-text);
+}
+
+.input-invalid {
+    color: var(--color-links-text);
+    border: 1px solid var(--color-error-text);
+}
+
+.input-invalid:focus {
+    border: 1px solid var(--color-error-text);
+}
+
+.react-datepicker {
+    width: 242px!important;
+    border: 1px solid var(--color-border-line);
+    border-radius: 8px!important;
+}
+
+.react-datepicker__day--selected {
+    background-color: var(--color-active-link-text)
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: var(--color-active-link-text)
+}
+
+.react-datepicker__day--selected:hover,
+.react-datepicker__day--keyboard-selected:hover {
+    background-color: var(--color-active-link-text)
+}
+
+.react-datepicker__header {
+    border-bottom: 1px solid var(--color-border-line);
+}
+
+.react-datepicker__day--in-range {
+    background-color: var(--color-active-link-text)
+}
+
+.react-datepicker__day--in-range:hover {
+    background-color: var(--color-active-link-text)
+}
+
+.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range) {
+    background-color: var(--color-active-link-text)
+}

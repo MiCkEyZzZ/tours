@@ -1,0 +1,122 @@
+.tour {
+    width: 100%;
+    min-height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.tour-wrapper {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tour-card {
+    width: 100%;
+    background: var(--ts-body-bg);
+    border: none;
+}
+
+.tour-image {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+
+.tour-image-top {
+    width: 100%;
+}
+
+.tour-card__body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    font-family: Rubik, serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: -0.1px;
+    margin: 27px 0 0 0;
+    padding: 0;
+    color: var(--color-primary-text);
+}
+
+.card-title__text {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: var(--color-second-text);
+}
+
+.tour-card__body {
+    margin: 0;
+    padding: 0;
+}
+
+.tour-picture {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    padding: 0;
+}
+
+.tour-review {
+    margin: 5rem 0 0 0;
+    padding: 0;
+}
+
+.tour-review-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.tour-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+    margin: 5rem 0 0 0;
+    padding: 0;
+}
+
+.tour-booking {
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 12px 20px;
+    color: var(--color-links-text);
+    background-color: var(--pg-bg-color);
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    transition: all .21s ease-in-out;
+    outline: none;
+}
+
+.tour-booking:hover {
+    transition: all .21s ease-in-out;
+    background-color: var(--hv-bg-color);
+    cursor: pointer;
+}
+

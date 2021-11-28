@@ -73,14 +73,11 @@ userSchema.pre(/^find/, function (next) {
     next()
 })
 
-userSchema.methods.correctPassword = async function (
-    candidatePassword,
-    userPassword
-) {
+userSchema.methods.correctPassword = async function (candidatePassword, userPassword) {
     return await bcrypt.compare(candidatePassword, userPassword)
 }
 
-userSchema.methods.changesPasswordAfter = function (JWTimestamp) {
+userSchema.methods.changedPasswordAfter = function (JWTimestamp) {
     if (this.passwordChangedAt) {
         const changedTimestamp = parseInt(
             this.passwordChangedAt.getTime() / 100,

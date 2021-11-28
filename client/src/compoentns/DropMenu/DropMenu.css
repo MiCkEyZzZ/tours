@@ -1,0 +1,77 @@
+.drop-menu {
+    position: relative;
+}
+
+.drop-menu-btn {
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    margin: 0;
+    padding: 12px 20px;
+    color: var(--color-links-text);
+    background-color: var(--pg-bg-color);
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    transition: all .21s ease-in-out;
+    outline: none;
+}
+
+.drop-menu-btn:hover {
+    transition: all .21s ease-in-out;
+    background-color: var(--hv-bg-color);
+    cursor: pointer;
+}
+
+.drop-menu-list {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    width: 100px;
+    min-height: 100px;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: var(--color-links-text);
+    background-color: var(--pg-bg-color);
+    border-radius: 8px;
+    box-shadow: var(--bs-box-shadow);
+    overflow: hidden;
+    transition: all .25s ease-in;
+    z-index: 1;
+}
+
+.drop-menu-list__items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drop-menu-list__item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 3px 10px 3px 10px;
+    box-sizing: border-box;
+}
+
+.drop-menu-list__item:hover {
+    color: var(--color-primary-text);
+    background-color: var(--gr-bg-color);
+    cursor: pointer;
+}
+
+.drop-menu-list__item.active {
+    color: var(--color-primary-text);
+    background-color: var(--active-bg-color);
+    cursor: default;
+}

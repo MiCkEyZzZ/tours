@@ -1,0 +1,21 @@
+.contacts {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+}
+
+.contacts-wrapper {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contacts-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: var(--color-primary-text);
+}

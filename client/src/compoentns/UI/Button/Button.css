@@ -1,0 +1,26 @@
+.btn-nt {
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    margin: 0;
+    padding: 12px 20px;
+    color: var(--color-links-text);
+    background-color: var(--pg-bg-color);
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    transition: all .21s ease-in-out;
+    outline: none;
+}
+
+.btn-nt:hover {
+    transition: all .21s ease-in-out;
+    background-color: var(--hv-bg-color);
+    cursor: pointer;
+}

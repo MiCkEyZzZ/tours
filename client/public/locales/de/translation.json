@@ -1,0 +1,31 @@
+{
+  "tour": {
+    "title": "Routes",
+    "placeholder": "Search...",
+    "searchBtn": "Search",
+    "total": "Insgesamt 5 Beiträge"
+  },
+  "header": {
+    "linkOne": "Startseite",
+    "linkTwo": "Routes",
+    "linkThree": "Über",
+    "linkFour": "Login",
+    "linkFive": "Registrierung",
+    "linkSix": "Abmelden"
+  },
+  "footer": {
+    "copyRight": "Alle Rechte vorbehalten",
+    "linkOne": "Über",
+    "copyTwo": "Kontakt",
+    "copyThree": "Beliebte Reiseziele",
+    "copyFour": "Stocks"
+  },
+  "product": {
+    "moreBtn": "Mehr",
+    "rating": "Bewertung",
+    "size": "Gruppengröße",
+    "duration": "Dauer",
+    "level": "Ebene",
+    "location": "Lage"
+  }
+}

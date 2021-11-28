@@ -1,0 +1,97 @@
+{
+  "tour": {
+    "title": "Resorts",
+    "placeholder": "Search...",
+    "searchBtn": "Search",
+    "total": "Total 5 posts"
+  },
+  "header": {
+    "linkOne": "Home",
+    "linkTwo": "Resorts",
+    "linkThree": "About",
+    "linkFour": "SignIn",
+    "linkFive": "SignUp",
+    "linkSix": "LogOut"
+  },
+  "footer": {
+    "copyRight": "All rights reserved",
+    "linkOne": "About",
+    "copyTwo": "Contacts",
+    "copyThree": "Popular destinations",
+    "copyFour": "Stocks"
+  },
+  "product": {
+    "moreBtn": "More",
+    "rating": "Rating",
+    "size": "Group Size",
+    "duration": "Duration",
+    "level": "Level",
+    "location": "Location"
+  },
+  "login": {
+    "title": "SignIn",
+    "email": "Email",
+    "password": "Password",
+    "logBtn": "SignIn",
+    "registration": "SignUp"
+  },
+  "signup": {
+    "title": "SignUp",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Confirm",
+    "logBtn": "SignUp",
+    "login": "SignIn"
+  },
+  "profile": {
+    "settings": "Settings",
+    "trips": "My trip",
+    "reviews": "My reviews",
+    "account": "Accounts"
+  },
+  "settings": {
+    "titleOne": "Account settings",
+    "name": "Name",
+    "email": "Email",
+    "titleTwo": "Changes password",
+    "current": "Current password",
+    "new": "New password",
+    "confirm": "Confirm password",
+    "accBtn": "Save settings",
+    "passBtn": "Save password",
+    "choose": "Choose new photo"
+  },
+  "trip": {
+    "title": "Trips"
+  },
+  "reviews": {
+    "title": "Reviews"
+  },
+  "account": {
+    "title": "Account"
+  },
+  "errors": {
+    "emptyField": "The field is required",
+    "correctEmail": "Enter a valid email address",
+    "confirm": "Confirm Password is required",
+    "match": "Passwords must match",
+    "password": "Passwords must be at least 6 characters"
+  },
+  "legals": {
+    "text": "By creating an account, you agree to Navbar's",
+    "and": "and",
+    "condition": "Conditions of Use",
+    "privacy": "Privacy Notice"
+  },
+  "price": {
+    "one": "По цене",
+    "two": "Высокая",
+    "three": "Средняя",
+    "four": "Низкая"
+  },
+  "pagination": {
+    "prev": "prev",
+    "next": "next"
+  }
+}

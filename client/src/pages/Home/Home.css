@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.home-wrapper {
+    width: 100%;
+    max-width: 1320px;
+    min-height: 90vh;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid;
+}

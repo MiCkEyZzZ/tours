@@ -6,13 +6,11 @@ const userController = require('../controllers/user.controller')
 const authController = require('../controllers/auth.controller')
 const getCurrentUser = require('../middlewares/currentUser.middleware')
 
-// all routes authenticating
 router.post('/signup', authController.signup)
 router.post('/login', authController.login)
 router.post('/forgot', authController.forgotPassword)
 router.patch('/reset/:token', authController.resetPassword)
 
-// protect all routes after this middleware
 router.use(authController.protect)
 
 router.patch('/update', authController.updatePassword)

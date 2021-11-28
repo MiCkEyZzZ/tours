@@ -16,13 +16,6 @@ router.use('/:tourId/reviews', reviewRoutes)
 
 router.get('/', getAllTours)
 
-// router.get('/tour-stats',
-//   tourController.getTourStats)
-//
-// router.get('/monthly-plan/:year',
-//   authController.restrictTo('admin', 'lead-guide', guide),
-//   tourController.getMonthlyPlan)
-
 router.post(
     '/',
     authController.protect,

@@ -1,4 +1,4 @@
-const AppError = require('../utils/app.error')
+const AppError = require('../utils/app.errors')
 const ApiFeatures = require('../utils/api.features')
 
 class OperationsFactory {

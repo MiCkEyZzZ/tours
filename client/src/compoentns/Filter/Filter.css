@@ -1,0 +1,26 @@
+.filter {
+    margin: 62px 0 0 0;
+}
+
+.filter-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-search {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+
+.filter-select {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,31 @@
+{
+  "tour": {
+    "title": "Route",
+    "placeholder": "Rechercher...",
+    "searchBtn": "Rechercher",
+    "total": "Total 5 postes"
+  },
+  "header": {
+    "linkOne": "Maison",
+    "linkTwo": "Route",
+    "linkThree": "Au sujet",
+    "linkFour": "Connexion",
+    "linkFive": "Enregistrement",
+    "linkSix": "déconnexion"
+  },
+  "footer": {
+    "copyRight": "Tous droits réservés",
+    "linkOne": "Au sujet",
+    "copyTwo": "Contacter",
+    "copyThree": "Destinations populaires",
+    "copyFour": "Stock"
+  },
+  "product": {
+    "moreBtn": "Plus",
+    "rating": "Évaluation",
+    "size": "Taille du Groupe",
+    "duration": "Durée",
+    "level": "Niveau",
+    "location": "Emplacement"
+  }
+}

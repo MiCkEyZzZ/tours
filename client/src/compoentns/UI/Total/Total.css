@@ -1,0 +1,25 @@
+.total {
+    display: flex;
+    flex-direction: row;
+    margin: 49px 0 25px 0;
+    padding: 0;
+}
+
+.total-icon {
+    margin: 0 12px 0 0;
+    padding: 0;
+}
+
+.total-title {
+    display: flex;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    margin: 0;
+    padding: 0;
+    color: var(--color-second-text);
+}
